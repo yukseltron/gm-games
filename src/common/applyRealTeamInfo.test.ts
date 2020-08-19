@@ -15,10 +15,8 @@ describe("common/applyRealTeamInfo", () => {
 		const t = generate(teamsDefault[0]);
 		assert.equal(t.abbrev, "ATL");
 		assert.equal(t.region, "Atlanta");
-		assert.equal(t.name, "Gold Club");
+		assert.equal(t.name, "Hawks");
 		assert.equal(t.pop, 5.3);
-		assert.deepEqual(t.colors, ["#5c4a99", "#f0e81c", "#211e1e"]);
-		assert.equal(t.imgURL, "/img/logos/ATL.png");
 		t.srID = "foo";
 
 		const realTeamInfo: RealTeamInfo = {

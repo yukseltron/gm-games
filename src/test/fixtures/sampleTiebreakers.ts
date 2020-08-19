@@ -4,7 +4,7 @@ export default [
 		cid: 0,
 		did: 2,
 		region: "Atlanta",
-		name: "Gold Club",
+		name: "Hawks",
 		abbrev: "ATL",
 		imgURL: "",
 		stats: [
